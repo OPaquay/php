@@ -114,7 +114,7 @@
             }
         ?>
         
-        <a class="github" href="#">Github</a>
+        <a class="github" href="https://github.com/OliviaPaquay/PHP">Github</a>
             
     </body>
 </html>
