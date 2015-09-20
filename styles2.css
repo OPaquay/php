@@ -1,0 +1,124 @@
+body.voiture {
+    background: url('bmw.jpg');
+    background-size: cover;
+}
+
+body.horloge {
+    background: url('horloge.jpg');
+    background-size: cover;
+}
+
+body.velo {
+    background: url('velo.jpg');
+    background-size: cover;
+}
+
+.github {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #2e9afe;
+    color: #333;
+    padding: 20px;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+form {
+    font-family: monospace;
+}
+
+form.voiture_papa {
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #333;
+    width: 300px;
+    color: #fff;
+}
+
+input, label {
+    color: #fff;
+    margin: 0 auto;
+}
+
+label {
+    width: 300px;
+    display: block;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 15px 20px;
+    background-color: #2E9AFE;
+    color: #333;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    font-family: monospace;
+    transition: border-radius 0.5s;
+    -webkit-transition: border-radius 0.5s;
+}
+
+input[type="submit"]:hover {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.feedback:before {
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid #2e9afe;
+    border-left: 50px solid transparent;
+    position: absolute;
+    left: -50px;
+    top: 30px;
+}
+
+.feedback {
+    padding: 50px 30px;
+    background-color: #2e9afe;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+
+.reponse {
+    color: #333;
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    max-width: 170px;
+}
+
+.reponse input {
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.reponse .non_input {
+    margin-left: 20px;
+}
+
+.condition input[type="submit"] {
+    background-color: #333;
+    color: #2e9afe;
+    margin-top: 15px;
+}
