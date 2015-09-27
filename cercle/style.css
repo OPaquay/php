@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+form {
+    margin: 0 auto;
+    padding: 30px;
+    border: 3px solid #C8102E;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 540px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: calc(90% - 60px);
+}
+
+label {
+    font-weight: 400;
+}
+
+input, label, textarea {
+    color: #333;
+    display: block;
+    max-width: 530px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+input[type="radio"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+input[type="submit"]{
+    border: 2px solid #c8102E;
+    color: #fff;
+    background-color: #c8102e;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 21px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -webkit-appearance: none;
+}
+
+input[type="submit"]:hover {
+    color: #333;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+}
+ 
+input#roi {
+    margin-top: 20px;
+}
+
+input, textarea {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+}
+
+label {
+    font-size: 18px;
+}
+
+.surnom {
+    display: none;
+}
+
+.feedback * {
+    background-color: #c8102e;
+    color: #fff;
+    padding: 20px 30px;
+    margin: 0px;
+}
+
+.obligatoire:before {
+    content: "*";
+    color: #c8102e;
+    margin-right: 5px;
+}
+
+.github {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #c8102e;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
