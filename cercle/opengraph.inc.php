@@ -5,7 +5,7 @@
 <meta property="og:description" content="Si toi aussi tu as envie de devenir un bleu, rempli ce formulaire et deviens membre du cercle infographique de l'ESIAJ."/>
 
 <meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="http://www.oliviapaquay.be/php/cercle"/>
 <meta name="twitter:title" content="Inscription cercle ESIAJ"/>
 <meta name="twitter:description" content="Si toi aussi tu as envie de devenir un bleu, rempli ce formulaire et deviens membre du cercle infographique de l'ESIAJ."/>
-<meta name="twitter:url" content="http://www.oliviapaquay.be/php/cercle"/>
-<meta name="twitter:image" content="http://www.oliviapaquay.be/php/cercle/og.jpg"/>
+<meta name="twitter:image:src" content="http://www.oliviapaquay.be/php/cercle/og.jpg"/>
