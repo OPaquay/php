@@ -110,6 +110,6 @@
             
             <input id="envoi" type="submit" value="Envoyer"/>
         </form>
-        <a class="github" href="http://github.com/OliviaPaquay/PHP/cercle">Github</a>
+        <a class="github" href="http://github.com/OliviaPaquay/php/tree/master/cercle">Github</a>
     </body>
 </html>
